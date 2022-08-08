@@ -1,0 +1,55 @@
+.kotak {
+  width: 93%;
+  margin: auto;
+  height: 380px;
+  border: 1px solid black;
+}
+
+.kotak p {
+  margin: 50px;
+  font-size: 25px;
+}
+
+/* catatan */
+
+.container-urut {
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.urutan {
+  margin-left: 20px;
+}
+
+.container-table {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+
+th {
+  background-color: #2B2B2B;
+  color: white;
+}
+
+.container-table table {
+  text-align: center;
+  margin-left: 10px;
+  color: black;
+  border: 1px solid black;
+  width: 800px;
+  height: auto;
+}
+
+/* login */
+
+/* .form {
+  border: 1px solid black;
+} */
+
+/* isi data */
+
+
