@@ -22,7 +22,7 @@ Route::get('/', function () {
     ]);
 });
 
-Route::get('/catatan-perjalanan', [catatanController::class, 'index']);
+Route::get('/catatan-perjalanan', [catatanController::class, 'index'])->middleware('admin');
 
 Route::get('/register', [RegisterController::class, 'index']);
 Route::post('/register', [RegisterController::class, 'register']);

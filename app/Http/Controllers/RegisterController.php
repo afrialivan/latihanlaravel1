@@ -18,8 +18,8 @@ class RegisterController extends Controller
     {
         $validateDate = $request->validate([
             'name' => 'required|max:255',
-            'nis' => 'required|min:9',
-            'password' => 'required|min:3'
+            'nis' => 'required',
+            'password' => 'required'
         ]);
         
         $validateDate['password'] = bcrypt($validateDate['password']);

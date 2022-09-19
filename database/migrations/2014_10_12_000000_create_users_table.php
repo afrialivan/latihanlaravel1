@@ -18,6 +18,7 @@ class CreateUsersTable extends Migration
             $table->string('name');
             $table->integer('nis');
             $table->string('password');
+            $table->boolean('admin')->default(false);
             $table->timestamps();
         });
     }
